@@ -9,8 +9,7 @@ body {
 }
 
 .container {
-    margin-left: 10%;
-    margin-right: 10%;
+
     display: grid;
     height: 100vh;
     grid-template-columns: 1fr;
@@ -24,9 +23,34 @@ body {
 header {
     grid-area: header;
     background-color: red;
+    font-size: 100px;
 }
 
 main {
     grid-area: main;
     background-color: green;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+table {
+    width: 100%;
+    overflow-y: auto;
+    padding: 5%;
+}
+table td {
+    border: 2px solid black;
+    height: 150px;
+}
+
+#image {
+    width: 10%;
+}
+
+#title {
+    width: 60%;
+}
+
+#score {
+    width: 10%;
 }
