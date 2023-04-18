@@ -29,7 +29,6 @@ header {
 
 main {
     grid-area: main;
-    background-color: green;
     margin-left: 10%;
     margin-right: 10%;
 }
@@ -44,6 +43,7 @@ table td {
     border-radius: 5px;
     height: 150px;
     text-align: center;
+    font-size: 3.5rem;
 }
 
 tr img {
