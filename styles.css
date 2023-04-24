@@ -104,18 +104,13 @@ footer {
         "footer";
 }
 
-header {
-    width: 100%;
-}
-
 footer {
     grid-area: footer;
     background-color: green;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100%;
-
+    height: 100px;
 }
 
 main {
@@ -130,6 +125,23 @@ table td {
     text-align: center;
     font-size: 1.5rem;
     background-color: #F6F1E9;
+}
+
+header #social {
+    display: none;
+}
+
+footer #social-2 {
+    font-size: 2rem;
+    color:#F6F1E9;
+}
+
+.fa-brands {
+    transition: transform .2s;
+}
+
+.fa-brands:hover {
+    transform: scale(1.5);
 }
 
 }
