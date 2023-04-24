@@ -39,6 +39,11 @@ header {
 
 .fa-brands {
     padding: 10px;
+    transition: transform .2s;
+}
+
+.fa-brands:hover {
+    transform: scale(1.5);
 }
 
 
@@ -106,7 +111,7 @@ footer {
 
 footer {
     grid-area: footer;
-    background-color: green;
+    background-color: black;
     display: flex;
     align-items: center;
     justify-content: center;
