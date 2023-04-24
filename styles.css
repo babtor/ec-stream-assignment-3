@@ -52,7 +52,9 @@ table {
     width: 100%;
     overflow-y: auto;
     padding: 5%;
+    word-wrap: break-word;
 }
+
 table td {
     border: 2px solid black;
     border-radius: 5px;
@@ -102,6 +104,10 @@ footer {
         "footer";
 }
 
+header {
+    width: 100%;
+}
+
 footer {
     grid-area: footer;
     background-color: green;
@@ -109,10 +115,21 @@ footer {
     align-items: center;
     justify-content: center;
     width: 100%;
+
 }
 
 main {
     margin-left: 0%;
     margin-right: 0%;
 }
+
+table td {
+    border: 2px solid black;
+    border-radius: 5px;
+    height: 150px;
+    text-align: center;
+    font-size: 1.5rem;
+    background-color: #F6F1E9;
+}
+
 }
