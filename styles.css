@@ -5,6 +5,8 @@
     text-decoration: none;
 }
 
+a:link, a:visited, a:hover, a:active { color: black }
+
 body {
     min-height: 100vh;
 }
@@ -31,6 +33,7 @@ header {
 
 #imdb {
     font-size: 5rem;
+    font-family: 'Playfair Display', serif;
 }
 
 #social {
@@ -69,6 +72,7 @@ table td {
     text-align: center;
     font-size: 3.5rem;
     background-color: #F6F1E9;
+    font-family: 'Fjalla One', sans-serif;
 }
 
 table th {
@@ -95,8 +99,6 @@ table tr {
     text-align: start;
     padding-left: 5%;
 }
-
-a:link, a:visited, a:hover, a:active { color: black }
 
 table tr:hover {
     transform: scale(1.05);
