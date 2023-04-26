@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
 }
 
 body {
@@ -81,6 +82,10 @@ tr img {
     display: flex;
 }
 
+table tr {
+    transition: transform .2s;
+}
+
 #image {
     width: 10%;
 }
@@ -89,6 +94,12 @@ tr img {
     width: 60%;
     text-align: start;
     padding-left: 5%;
+}
+
+a:link, a:visited, a:hover, a:active { color: black }
+
+table tr:hover {
+    transform: scale(1.05);
 }
 
 #score {
